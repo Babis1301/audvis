@@ -23,8 +23,8 @@ header.innerHTML = ` <!-- the code for navbar -->
     <!-- the code for menu, menu icon, language -->
     <div class="menu-languages" aria-label="Language selection">
       <div class="languages" aria-hidden="true">
-        <a href="index.html" lang="en" aria-label="Switch to English"><img src="assets/united-kingdom.png" alt="flag of united kingdom" width="24" height="24"></a>
-        <a href="index-el.html" lang="el" aria-label="Switch to Greek"><img src="assets/greek flag.png" alt="flag of greece" width="24" height="24"></a>
+        <a href="index.html" lang="en" aria-label="Switch to English"><img src="united-kingdom.png" alt="flag of united kingdom" width="24" height="24"></a>
+        <a href="index-el.html" lang="el" aria-label="Switch to Greek"><img src="greek flag.png" alt="flag of greece" width="24" height="24"></a>
       </div>
        <div style="color:black;" class="languages-icon" role="open languages menu"><i class="ri-global-line"></i></div>
         <button class="back-btn" onclick="history.back()" aria-label="Go back to the previous page">BACK</button>
