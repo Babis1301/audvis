@@ -69,7 +69,7 @@ const thirdRowHTML = thirdRowLoop.map(partner =>
       <div class="partner-info" id="info-${partner.id}">
       <h6>${partner.title}</h6>
         <p>${partner.description}</p>
-        <a href="${partner.website}" target="_blank"><img src="assets/right-arrow.png" alt="arrow that link to ${partner.website}" width="24" height="24"></a>
+        <a href="${partner.website}" target="_blank"><img src="right-arrow.png" alt="arrow that link to ${partner.website}" width="24" height="24"></a>
       </div>
     </div>`).join(" ");
 
